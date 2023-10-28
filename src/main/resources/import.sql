@@ -1,0 +1,16 @@
+INSERT INTO client_db (nome, email, cpf) VALUES ('João', 'joao@email.com', '123.456.789-01')
+--  ('João', 'joao@email.com', '123.456.789-01'),
+--  ('Maria', 'maria@email.com', '987.654.321-09'),
+--  ('Pedro', 'pedro@email.com', '456.789.123-45'),
+--  ('Ana', 'ana@email.com', '789.321.654-09'),
+--  ('Carlos', 'carlos@email.com', '234.567.890-12'),
+--  ('Luiza', 'luiza@email.com', '876.543.210-98'),
+--  ('Mariana', 'mariana@email.com', '345.678.901-23'),
+--  ('Antônio', 'antonio@email.com', '567.890.123-45'),
+--  ('Isabela', 'isabela@email.com', '901.234.567-89'),
+--  ('Ricardo', 'ricardo@email.com', '678.901.234-56'),
+--  ('Clara', 'clara@email.com', '432.109.876-54'),
+--  ('Fernando', 'fernando@email.com', '210.987.654-32'),
+--  ('Sofia', 'sofia@email.com', '765.432.109-87'),
+--  ('Rafael', 'rafael@email.com', '543.210.987-65'),
+--  ('Larissa', 'larissa@email.com', '109.876.543-21');

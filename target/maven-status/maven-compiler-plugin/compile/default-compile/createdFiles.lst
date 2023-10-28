@@ -1,0 +1,11 @@
+com/pos/fiap/dto/ClientDTO.class
+com/pos/fiap/dto/ProductDTO.class
+com/pos/fiap/services/ClientService.class
+com/pos/fiap/services/ProductService.class
+com/pos/fiap/entities/Client.class
+com/pos/fiap/controllers/ProductController.class
+com/pos/fiap/entities/Product.class
+com/pos/fiap/controllers/ClientController.class
+com/pos/fiap/repository/ClientRepository.class
+com/pos/fiap/FiapApplication.class
+com/pos/fiap/repository/ProductRepository.class

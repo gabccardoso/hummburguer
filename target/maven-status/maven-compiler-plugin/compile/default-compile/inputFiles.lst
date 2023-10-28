@@ -1,0 +1,11 @@
+/home/gabi/Documents/fiap/src/main/java/com/pos/fiap/entities/Client.java
+/home/gabi/Documents/fiap/src/main/java/com/pos/fiap/controllers/ProductController.java
+/home/gabi/Documents/fiap/src/main/java/com/pos/fiap/repository/ProductRepository.java
+/home/gabi/Documents/fiap/src/main/java/com/pos/fiap/dto/ProductDTO.java
+/home/gabi/Documents/fiap/src/main/java/com/pos/fiap/repository/ClientRepository.java
+/home/gabi/Documents/fiap/src/main/java/com/pos/fiap/services/ProductService.java
+/home/gabi/Documents/fiap/src/main/java/com/pos/fiap/dto/ClientDTO.java
+/home/gabi/Documents/fiap/src/main/java/com/pos/fiap/entities/Product.java
+/home/gabi/Documents/fiap/src/main/java/com/pos/fiap/controllers/ClientController.java
+/home/gabi/Documents/fiap/src/main/java/com/pos/fiap/services/ClientService.java
+/home/gabi/Documents/fiap/src/main/java/com/pos/fiap/FiapApplication.java
