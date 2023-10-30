@@ -9,7 +9,7 @@ services:
     networks:
       - springboot-mysql-net
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://172.22.0.2:3306/humburguer?verifyServerCertificate=false&useSSL=false&requireSSL=false&autoReconnect=true&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysqldb:3306/humburguer?verifyServerCertificate=false&useSSL=false&requireSSL=false&autoReconnect=true&allowPublicKeyRetrieval=true
     depends_on:
       - mysqldb
 
