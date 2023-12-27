@@ -8,8 +8,6 @@ services:
       - 8080:8080
     networks:
       - springboot-mysql-net
-    environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysqldb:3306/humburguer?verifyServerCertificate=false&useSSL=false&requireSSL=false&autoReconnect=true&allowPublicKeyRetrieval=true
     depends_on:
       - mysqldb
 
@@ -20,9 +18,6 @@ services:
       - 3307:3306
     networks:
       - springboot-mysql-net
-    environment:
-      MYSQL_DATABASE: humburguer
-      MYSQL_ROOT_PASSWORD: root
     container_name: mysqldb
 
 networks:

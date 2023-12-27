@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: mysql
+spec:
+  selector:
+    matchLabels:
+      app: mysql
+  serviceName: "mysql-svc"
+  template:
+    metadata:
+      labels:
+        app: mysql
+    spec:
+      containers:
+        - name: mysql
+          image: mysql:8.0
+          ports:
+            - containerPort: 3306
+          envFrom:
+            - secretRef:
+                name: db-secret
+          volumeMounts:
+            - name: banco-volume
+              mountPath: /var/lib/mysql
+          securityContext:
+            runAsUser: 1000  # Substitua pelo UID do usuário mysql no seu contêiner
+            runAsGroup: 1000
+      volumes:
+        - name: banco-volume
+          emptyDir: { }
+  volumeClaimTemplates:
+    - metadata:
+        name: banco-volume
+      spec:
+        accessModes: [ "ReadWriteOnce" ]
+        resources:
+          requests:
+            storage: 5Gi
